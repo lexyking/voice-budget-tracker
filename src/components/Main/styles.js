@@ -1,4 +1,4 @@
-import { makeStyles } from '@emotion/styled';
+import makeStyles from '@emotion/styled';
 
 export default makeStyles((theme) => ({
   media: {
