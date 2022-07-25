@@ -2,6 +2,7 @@ import { Grid } from '@mui/material';
 import { useRef } from 'react';
 
 import Details from './components/Details/Details'
+import Main from './components/Main/Main'
 import useStyles from './styles';
 
 
@@ -15,7 +16,7 @@ const App = () => {
         <Details title="Income" />
       </Grid>
       <Grid ref={main} item xs={12} sm={3} className={classes.main}>
-        {/* <Main /> */}
+        <Main />
       </Grid>
       <Grid item xs={12} sm={4} className={classes.desktop}>
         <Details title="Income" />
