@@ -4,11 +4,14 @@ export default makeStyles((theme) => ({
   desktop: {
     [theme.breakpoints.up('sm')]: {
       display: 'none',
+      border: '2px solid red'
     },
   },
   mobile: {
     [theme.breakpoints.down('sm')]: {
       display: 'none',
+      border: '2px solid red'
+
     },
   },
   main: {
